@@ -24,7 +24,7 @@
 		background-color: white;
 		width: 200px;
 		height: 200px;
-		border: 10px double teal;
+		border: 15px double teal;
 		border-radius: 50%;
 		padding-top: 0px;
 		display: flex;
@@ -62,10 +62,13 @@
 
 	li{
 		font-family: 'Assistant', sans-serif;
+
+
 	}
 
 	a{
 		font-family: 'Assistant', sans-serif;
+		text-decoration: none;
 
 	}
 
@@ -80,7 +83,6 @@
    	button{
    		background-color: #FFA500;
    		border-radius: 5px;
-
    		color: none;
    		font-family: 'Assistant'  
 
@@ -96,6 +98,32 @@
     	z-index: 1;
    }
 
+   .navigation{
+   		
+   		list-style-type: none;
+   		margin: 0;
+   		padding: 0;
+   		
+   }
+
+   nav{
+   	background-color: teal;
+   	height: 70px;
+
+
+   }
+
+   nav ul li{
+   	list-style-type: none;
+   	width: 100px;
+   	float: right;
+   	display: inline-block;
+   	
+   	line-height: 17px;
+   	padding: 0px;
+
+   }
+
 </style>
 
 
@@ -108,7 +136,14 @@
 
 	
 
-	<h2>Iskandar Puteri</h2>
+	<nav>
+    <ul>
+    	<li><a href="#" ><h2>Contact</h2></a></li>
+		<li><a href="#" ><h2>Home</h2></a></li>
+	</ul>
+	</nav>
+
+	<h2 float="left">Iskandar Puteri</h2>
 
 	<img class="border" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTmUhbg0PvJxSYlXr6hJXHjzfeuIK5zrJefw&usqp=CAU" width="700px">
 
