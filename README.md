@@ -1,1 +1,3 @@
-# hello-world-22
+# Week 1
+
+Introduction to HTML structure & CSS.
